@@ -7,6 +7,8 @@ Description: Telenor Easypay Payment Gateway Plugin for Woocommerce
 Version: 1.0
 Author: Imroz Technologies
 Author URI: http://imroz.pk
+License: GPL-3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.txt
 */
 
 if ( ! defined( 'ABSPATH' ) ) exit;
