@@ -27,6 +27,7 @@ A. Easypay only supports PKR at the moment. If you are using another currency or
 
 I use something like this in my functions.php:
 
+```
 function gateway_disable_by_currency( $available_gateways ) {
     global $woocommerce;
     
@@ -37,3 +38,4 @@ function gateway_disable_by_currency( $available_gateways ) {
 }
 
 add_filter( 'woocommerce_available_payment_gateways', 'gateway_disable_by_currency' );
+```
